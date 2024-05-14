@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 app = Flask(__name__)
 
 FILE_PATH = 'All_Info.txt'
-
+//comment
 f = open(FILE_PATH, 'r', errors='ignore')
 raw = f.read()
 raw = raw.lower()
